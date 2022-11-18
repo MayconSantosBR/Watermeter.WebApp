@@ -1,0 +1,117 @@
+﻿<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<nav class="navbar navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" asp-controller="Home" asp-action="Index">Watermetter</a>
+          <div class="position-relative">...
+            <button type="button" class="btn btn-primary rol position-relative ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="23" height="21" fill="currentColor" class="bi bi-bell" viewBox="0 0 16 16">
+                    <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z"/>
+                  </svg><span class="visually-hidden">unread messages</span>
+                
+              </button>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+          <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">Watermetter</h5>
+              <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" asp-controller="Home" asp-action="Index">Dashboard</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" asp-controller="Perfil" asp-action="Perfil">Perfil</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Minhas conquistas</a>
+                  </li>
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Login" asp-action="Login">Sair</a>
+                  </li>
+              </ul>
+
+ 
+
+            </div>
+          </div>
+        </div>
+        
+      </nav>
+      <div class="position-relative">
+          
+            <p class="fs-2">Cadastre-se</p>
+         
+    </div>
+      
+<form class="row g-3">
+    <div class="col-12">
+    <label for="inputName" class="form-label">Nome Completo</label>
+    <input type="text" class="form-control" id="inputName">
+  </div>
+  <div class="col-md-6">
+    <label for="inputEmail4" class="form-label">E-mail</label>
+    <input type="email" class="form-control" id="inputEmail4">
+  </div>
+
+  <div class="col-md-6">
+    <label for="inputPassword4" class="form-label">Senha</label>
+    <input type="password" class="form-control" id="inputPassword4">
+  </div>
+  <div class="col-12">
+    <label for="inputAddress" class="form-label">Endereço</label>
+    <input type="text" class="form-control" id="inputAddress">
+  </div>
+  <div class="col-md-6">
+    <label for="inputCity" class="form-label">Cidade</label>
+    <input type="text" class="form-control" id="inputCity">
+  </div>
+  <div class="col-md-4">
+    <label for="inputState" class="form-label">Estado</label>
+    <select id="inputState" class="form-select">
+      <option selected>Escolha</option>
+
+      <option>Acre (AC)</option>
+       <option>Alagoas (AL)</option>
+       <option>Amapá (AP)</option>
+       <option>Amazonas (AM)</option>
+       <option>Bahia (BA)</option>
+       <option>Ceará (CE)</option>
+       <option>Distrito Federal (DF)</option>
+       <option>Espírito Santo (ES)</option>
+       <option>Goiás (GO)</option>
+       <option>Maranhão (MA)</option>
+       <option>Mato Grosso (MT)</option>
+       <option>Mato Grosso do Sul (MS)</option>
+       <option>Minas Gerais (MG)</option>
+       <option>Pará (PA)</option>
+       <option>Paraíba (PB)</option>
+       <option>Paraná (PR)</option>
+       <option>Pernambuco (PE)</option>
+       <option>Piauí (PI)</option>
+       <option>Rio de Janeiro (RJ)</option>
+       <option>Rio Grande do Norte (RN)</option>
+       <option>Rio Grande do Sul (RS)</option>
+       <option>Rondônia (RO)</option>
+       <option>Roraima (RR)</option>
+       <option>Santa Catarina (SC)</option>
+       <option>São Paulo (SP)</option>
+       <option>Sergipe (SE)</option>
+       <option>Tocantins (TO)</option>
+      </select>
+  </div>
+  <div class="col-md-2">
+    <label for="inputZip" class="form-label">CEP</label>
+    <input type="text" class="form-control" id="inputZip">
+  </div>
+  <div class="col-md-2">
+    <button type="submit" class="btn btn-primary">Cadastrar</button>
+  </div>
+</form>
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
