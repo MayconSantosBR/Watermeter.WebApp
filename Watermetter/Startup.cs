@@ -26,9 +26,14 @@ namespace Watermetter
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+
             services.AddAutoMapper(typeof(MapperService));
+
             services.AddScoped<IPerfilService, PerfilService>();
             services.AddHttpClient<IPerfilService, PerfilService>();
+
+            services.AddScoped<ILoginService, LoginService>();
+            services.AddHttpClient<ILoginService, LoginService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -41,16 +41,16 @@
                         <form id="login-form" class="form" action="" method="post">
                             <h3 class="text-center text-info">Watermetter</h3>
                             <div class="form-group">
-                                <label for="username" class="text-info">Usuario:</label><br>
-                                <input type="text" name="username" id="username" class="form-control">
+                                <label for="email" class="text-info">E-mail:</label><br>
+                                <input type="text" name="email" id="email" class="form-control">
                             </div>
                             <div class="form-group">
-                                <label for="password" class="text-info">Senha:</label><br>
-                                <input type="password" name="password" id="password" class="form-control">
+                                <label for="senha" class="text-info">Senha:</label><br>
+                                <input type="password" name="senha" id="senha" class="form-control">
                             </div>
                             <div class="form-group">
                                 <label for="remember-me" class="text-info"><span>Salvar senha</span> <span><input id="remember-me" name="remember-me" type="checkbox"></span></label><br>
-                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Entrar" asp-controller="Home" asp-action="Index">
+                                <input type="submit" name="submit" class="btn btn-info btn-md" value="Entrar" asp-controller="Login" asp-action="Login" asp-route-email="email" asp-route-senha="senha">
                             </div>
                             <div id="register-link" class="text-right">
                                 <a class="nav-link" asp-controller="Cadastro" asp-action="Cadastro">Cadastre-se</a>

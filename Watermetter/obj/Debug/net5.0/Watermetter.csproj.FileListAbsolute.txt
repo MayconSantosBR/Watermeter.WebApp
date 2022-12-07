@@ -354,7 +354,6 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.output.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.RazorCoreGenerate.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Cadastro\Cadastro.cshtml.g.cs
-C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Perfil\Perfil.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
@@ -371,3 +370,4 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\refint\Watermetter.dll
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.pdb
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.genruntimeconfig.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\ref\Watermetter.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Index.cshtml.g.cs

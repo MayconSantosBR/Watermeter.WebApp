@@ -5,6 +5,7 @@ using System.Net.Http.Json;
 using System.Text;
 using System.Threading.Tasks;
 using Watermetter.Models;
+using Watermetter.Services.Helpers;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Watermetter.Services
@@ -36,7 +37,7 @@ namespace Watermetter.Services
         {
             try
             {
-                var body = new StringContent(JsonConvert.SerializeObject(model), Encoding.UTF8, Application.Json);
+                var body = GeneralHelper.GenerateBody(model);
                 using var response = await client.PatchAsync($"{EnvironmentConfig.Host.HostApi}/api/owner/UpdateOwner?id={id}", body);
                 return true;
             }
