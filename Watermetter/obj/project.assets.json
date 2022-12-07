@@ -6638,26 +6638,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\mayco\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Maycon\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Pessoal\\Watermetter\\Watermetter\\Watermetter.csproj",
+      "projectUniqueName": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj",
       "projectName": "Watermetter",
-      "projectPath": "C:\\Pessoal\\Watermetter\\Watermetter\\Watermetter.csproj",
-      "packagesPath": "C:\\Users\\mayco\\.nuget\\packages\\",
-      "outputPath": "C:\\Pessoal\\Watermetter\\Watermetter\\obj\\",
+      "projectPath": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj",
+      "packagesPath": "C:\\Users\\Maycon\\.nuget\\packages\\",
+      "outputPath": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\mayco\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\Maycon\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6665,7 +6658,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "http://ux-agent.plataformahub.com.br:5000": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6719,13 +6711,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://ux-agent.plataformahub.com.br:5000'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  }
 }
