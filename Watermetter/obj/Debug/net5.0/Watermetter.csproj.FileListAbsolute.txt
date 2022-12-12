@@ -378,3 +378,5 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Watermetter.props
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Watermetter.props
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Login.cshtml.g.cs
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Arduino\Arduino.cshtml.g.cs
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Arduino\CadastroArduino.cshtml.g.cs
