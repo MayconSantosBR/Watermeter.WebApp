@@ -1,7 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Watermetter.Models;
 
-namespace Watermetter.Services
+namespace Watermetter.Services.Interfaces
 {
     public interface IPerfilService
     {

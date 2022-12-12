@@ -6,6 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Watermetter.Models;
 using Watermetter.Services.Helpers;
+using Watermetter.Services.Interfaces;
 using static System.Net.Mime.MediaTypeNames;
 
 namespace Watermetter.Services

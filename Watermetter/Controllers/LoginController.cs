@@ -1,14 +1,14 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.Threading.Tasks;
 using Watermetter.Models;
-using Watermetter.Services;
+using Watermetter.Services.Interfaces;
 
 namespace Watermetter.Controllers
 {
     public class LoginController : Controller
     {
-        private readonly ILoginService loginService;
-        public LoginController(ILoginService loginService)
+        private readonly IGeneralService loginService;
+        public LoginController(IGeneralService loginService)
         {
             this.loginService = loginService;
         }

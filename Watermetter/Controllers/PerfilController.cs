@@ -2,7 +2,7 @@
 using System.Net.Http;
 using System.Threading.Tasks;
 using Watermetter.Models;
-using Watermetter.Services;
+using Watermetter.Services.Interfaces;
 
 namespace Watermetter.Controllers
 {

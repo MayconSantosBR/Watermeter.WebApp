@@ -10,6 +10,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Watermetter.Models;
 using Watermetter.Services;
+using Watermetter.Services.Interfaces;
 
 namespace Watermetter
 {
@@ -32,8 +33,8 @@ namespace Watermetter
             services.AddScoped<IPerfilService, PerfilService>();
             services.AddHttpClient<IPerfilService, PerfilService>();
 
-            services.AddScoped<ILoginService, LoginService>();
-            services.AddHttpClient<ILoginService, LoginService>();
+            services.AddScoped<IGeneralService, GeneralService>();
+            services.AddHttpClient<IGeneralService, GeneralService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
