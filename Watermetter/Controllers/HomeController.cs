@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Collections.Generic;
@@ -24,8 +25,15 @@ namespace Watermetter.Controllers
 
         public async Task<IActionResult> Index()
         {
-            ViewBag.Histories = await service.PegarHistorico(1);
-            return View();
+            var response = HttpContext.Session.Get("Logado");
+
+            if (response.FirstOrDefault().Equals(1))
+            {
+                ViewBag.Histories = await service.PegarHistorico(Convert.ToInt32(HttpContext.Session.Get("User").FirstOrDefault()));
+                return View();
+            }
+            else
+                return View("Login");
         }
 
         public IActionResult Privacy()

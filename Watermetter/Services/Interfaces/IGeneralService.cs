@@ -6,7 +6,7 @@ namespace Watermetter.Services.Interfaces
 {
     public interface IGeneralService
     {
-        Task<bool> ValidarLogin(Login login);
+        Task<int> ValidarLogin(Login login);
         Task<List<History>> PegarHistorico(int idOwner);
     }
 }
