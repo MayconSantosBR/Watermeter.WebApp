@@ -23,7 +23,7 @@
                   <a class="nav-link" asp-controller="Perfil" asp-action="Perfil">Perfil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-controller="Login" asp-action="Index">Sair</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="Sair">Sair</a>
                   </li>
               </ul>
             </div>
@@ -39,23 +39,27 @@
       
 <form class="row g-3">
   <div class="col-12">
-    <label for="inputName" class="form-label">Nome</label>
-    <input type="text" class="form-control" id="inputName">
+    <label for="name" class="form-label">Nome</label>
+        <input type="text" class="form-control" name="name" id="name">
   </div>
   <div class="col-12">
         <label for="lastName" class="form-label">Sobrenome</label>
-    <input type="text" class="form-control" id="lastName">
+        <input type="text" class="form-control" name="lastName" id="lastName">
   </div>
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">E-mail</label>
-    <input type="email" class="form-control" id="inputEmail4">
+        <label for="email" class="form-label">E-mail</label>
+        <input type="email" class="form-control" name="email" id="email">
   </div>
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="inputPassword4">
+        <label for="senha" class="form-label">Senha</label>
+        <input type="password" class="form-control" name="senha" id="senha">
   </div>
-  <div class="col-md-2">
-    <button type="submit" class="btn btn-primary">Cadastrar</button>
+    <div class="col-md-6">
+        <label for="telefone" class="form-label">Telefone</label>
+        <input type="number" class="form-control" name="telefone" id="telefone">
+    </div>
+  <div class="col-md-8">
+        <button type="submit" class="btn btn-primary" asp-controller="Cadastro" asp-action="Cadastrar" asp-route-name="name" asp-route-lastname="lastName" asp-route-email="email" asp-route-senha="senha" asp-route-telefone="telefone">Cadastrar</button>
   </div>
 </form>
 

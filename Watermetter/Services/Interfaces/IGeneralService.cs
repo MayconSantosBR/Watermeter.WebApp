@@ -8,5 +8,7 @@ namespace Watermetter.Services.Interfaces
     {
         Task<int> ValidarLogin(Login login);
         Task<List<History>> PegarHistorico(int idOwner);
+        Task<Calcs> PegarCalculos(int idOwner);
+        Task<bool> SalvarCadastro(Perfil perfil);
     }
 }

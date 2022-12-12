@@ -349,7 +349,6 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.output.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.RazorCoreGenerate.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Cadastro\Cadastro.cshtml.g.cs
-C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Perfil\Perfil.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -366,3 +365,16 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.pdb
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.genruntimeconfig.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\ref\Watermetter.dll
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Index.cshtml.g.cs
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\Watermetter.StaticWebAssets.Pack.cache
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.Watermetter.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.build.Watermetter.props
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Watermetter.props
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Watermetter.props
+C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Login.cshtml.g.cs

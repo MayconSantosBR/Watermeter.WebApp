@@ -39,7 +39,7 @@ namespace Watermetter.Services
             try
             {
                 var body = GeneralHelper.GenerateBody(model);
-                using var response = await client.PatchAsync($"{EnvironmentConfig.Host.HostApi}/api/owner/UpdateOwner?id={id}", body);
+                using var response = await client.PatchAsync($"{EnvironmentConfig.Host.HostApi}/api/Owner/UpdateOwner?id={id}", body);
                 return true;
             }
             catch

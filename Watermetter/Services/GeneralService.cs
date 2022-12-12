@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Newtonsoft.Json;
 using System;
@@ -53,6 +54,35 @@ namespace Watermetter.Services
             catch
             {
                 return null;
+            }
+        }
+        public async Task<Calcs> PegarCalculos(int idOwner)
+        {
+            try
+            {
+                using var response = await client.GetAsync($"{EnvironmentConfig.Host.HostApi}/GetCalculationsById?idOwner={idOwner}");
+                return JsonConvert.DeserializeObject<Calcs>(await response.Content.ReadAsStringAsync());
+            }
+            catch
+            {
+                return null;
+            }
+        }
+        public async Task<bool> SalvarCadastro(Perfil perfil)
+        {
+            try
+            {
+                var body = GeneralHelper.GenerateBody(perfil);
+                using var response = await client.PostAsync($"{EnvironmentConfig.Host.HostApi}/api/Owner/Create", body);
+
+                if (response.IsSuccessStatusCode)
+                    return true;
+                else
+                    return false;
+            }
+            catch
+            {
+                return false;
             }
         }
     }

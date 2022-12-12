@@ -1,6 +1,15 @@
 ﻿@{
     var histories = ViewData["Histories"] as List<History>;
     var calcs = ViewData["Calculations"] as Calcs;
+
+    if(calcs == null)
+    {
+        calcs = new Calcs();
+        calcs.AverageConsumeByDay = 0;
+        calcs.AverageConsumeByWeek = 0;
+        calcs.AverageConsumeByMonth = 0;
+        calcs.AverageCostPerMonth = 0;
+    }
 }
 
 
@@ -60,7 +69,7 @@
                         <a class="nav-link" asp-controller="Perfil" asp-action="Perfil">Perfil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-controller="Login" asp-action="Index">Sair</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="Sair">Sair</a>
                   </li>
               </ul>
             </div>
@@ -71,19 +80,19 @@
 
         <div class="badge bg-dark col-md-2" style="width: 10rem;">
            Média diária:<br />
-           @calcs.AverageConsumeByDay
+           @Math.Round(calcs.AverageConsumeByDay, 2)
         </div>
         <div class="badge bg-dark col-md-2" style="width: 10rem;">
            Média semanal: <br />
-           @calcs.AverageConsumeByWeek
+           @Math.Round(calcs.AverageConsumeByWeek, 2)
         </div>
         <div class="badge bg-dark col-md-2" style="width: 10rem;">
            Média mensal: <br />
-           @calcs.AverageConsumeByMonth
+           @Math.Round(calcs.AverageConsumeByMonth, 2)
         </div>
         <div class="badge bg-dark col-md-2" style="width: 10rem;">
            Custo: <br />
-           @calcs.AverageCostPerMonth
+           @Math.Round(calcs.AverageCostPerMonth, 2)
         </div>
        
 <div class="scroll">
@@ -106,15 +115,15 @@
                 foreach(var history in histories)
                 {
                 count++;
-                                                                                                                    <tr>
-                                                                                                                    <th scope="row">@count</th>
-                                                                                                                    <td>@history.IdArduino</td>
-                                                                                                                    <td>@history.IdOwner</td>
-                                                                                                                    <td>@history.Begin</td>
-                                                                                                                    <td>@history.End</td>
-                                                                                                                    <td>@history.Date</td>
-                                                                                                                    <td>@history.Waterflow</td>
-                                                                                                                   </tr> 
+                <tr>
+                    <th scope="row">@count</th>
+                    <td>@history.IdArduino</td>
+                    <td>@history.IdOwner</td>
+                    <td>@history.Begin</td>
+                    <td>@history.End</td>
+                    <td>@history.Date</td>
+                    <td>@history.Waterflow</td>
+                </tr> 
                 }
             }
       </tbody>

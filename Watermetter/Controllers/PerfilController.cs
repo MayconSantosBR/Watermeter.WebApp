@@ -16,7 +16,6 @@ namespace Watermetter.Controllers
         {
             this.service = service;
         }
-        [HttpGet("BuscarPerfil")]
         public async Task<IActionResult> Perfil()
         {
             var response = HttpContext.Session.Get("Logado");
@@ -31,13 +30,23 @@ namespace Watermetter.Controllers
                 return View("Login");
             }      
         }
-        [HttpPatch("EditarPerfil")]
-        public async Task<IActionResult> EditarPerfil(int id, Perfil model)
+        public async Task<IActionResult> EditarPerfil(string name, string lastname, string email, string password, string number)
         {
             try
             {
-                await service.UpdatePerfilModelAsync(id, model);
-                return View("Index");
+                Perfil perfil = new Perfil()
+                {
+                    Name = name,
+                    LastName = lastname,
+                    Email = email,
+                    Password= password,
+                    Cellphone = number
+                };
+
+                if (await service.UpdatePerfilModelAsync(Convert.ToInt32(HttpContext.Session.Get("User").FirstOrDefault()), perfil))
+                    return RedirectToAction("Index", "Home");
+                else
+                    return View("Perfil");
             }
             catch
             {

@@ -30,7 +30,7 @@
                   <a class="nav-link" asp-controller="Perfil" asp-action="Perfil">Perfil</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" asp-controller="Login" asp-action="Index">Sair</a>
+                    <a class="nav-link" asp-controller="Home" asp-action="Sair">Sair</a>
                   </li>
               </ul>
 
@@ -49,24 +49,28 @@
       
 <form class="row g-3">
   <div class="col-12">
-    <label for="inputName" class="form-label">Nome</label>
-    <input type="text" class="form-control" id="inputName" value="@perfil.Name">
+    <label for="name" class="form-label">Nome</label>
+            <input type="text" class="form-control" name="name" id="name" value="@perfil.Name">
   </div>
   <div class="col-12">
-    <label for="inputName" class="form-label">Sobrenome</label>
-    <input type="text" class="form-control" id="inputLastName" value="@perfil.LastName">
+    <label for="lastname" class="form-label">Sobrenome</label>
+            <input type="text" class="form-control" name="lastname" id="lastname" value="@perfil.LastName">
   </div>
   <div class="col-md-6">
-    <label for="inputEmail4" class="form-label">E-mail</label>
-    <input type="email" class="form-control" id="inputEmail4" value="@perfil.Email">
+    <label for="email" class="form-label">E-mail</label>
+            <input type="email" class="form-control" name="email" id="email" value="@perfil.Email">
   </div>
 
   <div class="col-md-6">
-    <label for="inputPassword4" class="form-label">Senha</label>
-    <input type="password" class="form-control" id="inputPassword4" value="@perfil.Password" />
+    <label for="password" class="form-label">Senha</label>
+            <input type="password" class="form-control" name="password" id="password" value="@perfil.Password" />
   </div>
-  <div class="col-md-2">
-    <button onclick="EditarPerfil" type="button" class="btn btn-success" >Atualizar cadastro</button>
+        <div class="col-md-6">
+            <label for="number" class="form-label">Telefone</label>
+            <input type="number" class="form-control" name="number" id="number" value="@perfil.Cellphone" />
+        </div>
+  <div class="col-md-8">
+    <button type="submit" class="btn btn-success" asp-controller="Perfil" asp-action="EditarPerfil" asp-route-name="name" asp-route-lastname="lastname" asp-route-email="email" asp-route-password="password" asp-route-number="number">Atualizar cadastro</button>
   </div>
 </form>
 </body>

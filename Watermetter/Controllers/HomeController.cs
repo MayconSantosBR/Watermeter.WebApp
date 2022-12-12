@@ -30,17 +30,22 @@ namespace Watermetter.Controllers
             if (response.FirstOrDefault().Equals(1))
             {
                 ViewBag.Histories = await service.PegarHistorico(Convert.ToInt32(HttpContext.Session.Get("User").FirstOrDefault()));
+                ViewBag.Calculations = await service.PegarCalculos(Convert.ToInt32(HttpContext.Session.Get("User").FirstOrDefault()));
                 return View();
             }
             else
                 return View("Login");
         }
-
+        public IActionResult Sair()
+        {
+            byte[] notLogin = { 0 };
+            HttpContext.Session.Set("Logado", notLogin);
+            return View("Login");
+        }
         public IActionResult Privacy()
         {
             return View();
         }
-
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
