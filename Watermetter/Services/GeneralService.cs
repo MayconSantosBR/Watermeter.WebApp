@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Json;
@@ -23,7 +24,7 @@ namespace Watermetter.Services
             this.client = client;
         }
 
-        public async Task<bool> ValidarLogin(Login login)
+        public async Task<int> ValidarLogin(Login login)
         {
             try
             {
@@ -31,13 +32,15 @@ namespace Watermetter.Services
                 using var response = await client.PostAsync($"{EnvironmentConfig.Host.HostApi}/api/Owner/ValidateCredentials?system=FrontEndConsole", body);
 
                 if (response.IsSuccessStatusCode)
-                    return true;
+                {
+                    return Convert.ToInt32(await response.Content.ReadAsStringAsync());
+                }
                 else
-                    return false;
+                    return 0;
             }
             catch
             {
-                return false;
+                return 0;
             }
         }
         public async Task<List<History>> PegarHistorico(int idOwner)

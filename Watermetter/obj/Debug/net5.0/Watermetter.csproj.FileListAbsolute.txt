@@ -371,3 +371,10 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.build.Watermetter.props
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Watermetter.props
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Watermetter.props
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Fontes\Watermeter.WebApp\Watermetter\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
