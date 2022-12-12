@@ -345,11 +345,6 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.RazorAssemb
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.RazorAssemblyInfo.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\scopedcss\bundle\Watermetter.styles.css
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\Watermetter.StaticWebAssets.Manifest.cache
-C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\Watermetter.StaticWebAssets.Pack.cache
-C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.Watermetter.Microsoft.AspNetCore.StaticWebAssets.props
-C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.build.Watermetter.props
-C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildMultiTargeting.Watermetter.props
-C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild.buildTransitive.Watermetter.props
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.input.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.output.cache
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Watermetter.RazorCoreGenerate.cache
