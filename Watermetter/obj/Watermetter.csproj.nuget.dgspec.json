@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj": {}
+    "C:\\Pessoal\\Watermetter\\Watermetter\\Watermetter.csproj": {}
   },
   "projects": {
-    "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj": {
+    "C:\\Pessoal\\Watermetter\\Watermetter\\Watermetter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj",
+        "projectUniqueName": "C:\\Pessoal\\Watermetter\\Watermetter\\Watermetter.csproj",
         "projectName": "Watermetter",
-        "projectPath": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj",
-        "packagesPath": "C:\\Users\\Maycon\\.nuget\\packages\\",
-        "outputPath": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\obj\\",
+        "projectPath": "C:\\Pessoal\\Watermetter\\Watermetter\\Watermetter.csproj",
+        "packagesPath": "C:\\Users\\mayco\\.nuget\\packages\\",
+        "outputPath": "C:\\Pessoal\\Watermetter\\Watermetter\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Maycon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mayco\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +27,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://ux-agent.plataformahub.com.br:5000": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

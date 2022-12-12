@@ -28,7 +28,7 @@ namespace Watermetter.Controllers
             try
             {
                 if (await service.CriarArduino(Convert.ToInt32(HttpContext.Session.Get("User").FirstOrDefault()), name))
-                    return View("Arduino");
+                    return RedirectToAction("Arduino", "Arduino");
                 else
                     return RedirectToAction("Index", "Home");
             }

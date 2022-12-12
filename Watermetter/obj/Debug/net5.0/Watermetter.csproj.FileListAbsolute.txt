@@ -220,8 +220,6 @@ C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.input
 C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Watermetter.TagHelpers.output.cache
 C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Watermetter.RazorCoreGenerate.cache
 C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Cadastro\Cadastro.cshtml.g.cs
-C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Login\Login.cshtml.g.cs
 C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Perfil\Perfil.cshtml.g.cs
 C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
@@ -380,3 +378,14 @@ C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\staticwebassets\msbuild
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Login.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Arduino\Arduino.cshtml.g.cs
 C:\Fontes\Watermeter.WebApp\Watermetter\obj\Debug\net5.0\Razor\Views\Arduino\CadastroArduino.cshtml.g.cs
+C:\Pessoal\Watermetter\Watermetter\bin\Debug\net5.0\System.Web.Mvc.dll
+C:\Pessoal\Watermetter\Watermetter\bin\Debug\net5.0\System.Web.Razor.dll
+C:\Pessoal\Watermetter\Watermetter\bin\Debug\net5.0\System.Web.Helpers.dll
+C:\Pessoal\Watermetter\Watermetter\bin\Debug\net5.0\System.Web.WebPages.Deployment.dll
+C:\Pessoal\Watermetter\Watermetter\bin\Debug\net5.0\System.Web.WebPages.Razor.dll
+C:\Pessoal\Watermetter\Watermetter\bin\Debug\net5.0\System.Web.WebPages.dll
+C:\Pessoal\Watermetter\Watermetter\bin\Debug\net5.0\Microsoft.Web.Infrastructure.dll
+C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Arduino\Arduino.cshtml.g.cs
+C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Arduino\CadastroArduino.cshtml.g.cs
+C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Index.cshtml.g.cs
+C:\Pessoal\Watermetter\Watermetter\obj\Debug\net5.0\Razor\Views\Shared\Login.cshtml.g.cs
