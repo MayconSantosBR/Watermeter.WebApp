@@ -10,11 +10,11 @@
         "projectUniqueName": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj",
         "projectName": "Watermetter",
         "projectPath": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\Watermetter.csproj",
-        "packagesPath": "C:\\Users\\Maycon\\.nuget\\packages\\",
+        "packagesPath": "C:\\Users\\Cliente\\.nuget\\packages\\",
         "outputPath": "C:\\Fontes\\Watermeter.WebApp\\Watermetter\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Maycon\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Cliente\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -59,8 +59,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -72,7 +71,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

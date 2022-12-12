@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Maycon\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Maycon\\.nuget\\packages"
+      "C:\\Users\\Cliente\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Cliente\\.nuget\\packages"
     ]
   }
 }

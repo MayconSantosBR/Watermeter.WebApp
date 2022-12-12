@@ -7,7 +7,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-color: #cbf2ff;
+            background-color: rgb(13, 17, 23);
             height: 100vh;
         }
 
@@ -15,20 +15,19 @@
             margin-top: 120px;
             max-width: 600px;
             height: 320px;
-            border: 1px solid #9C9C9C;
-            background-color: #EAEAEA;
+            border: 1px solid white; 
+            background-color: rgb(33, 37, 41);
         }
 
-            #login .container #login-row #login-column #login-box #login-form {
-                padding: 20px;
-            }
-
-                #login .container #login-row #login-column #login-box #login-form #register-link {
-                    margin-top: -85px;
-                }
+        #login .container #login-row #login-column #login-box #login-form {
+           padding: 20px;
+        }
+        #login .container #login-row #login-column #login-box #login-form #register-link {
+           margin-top: -85px;
+        }
 
         footer {
-            background-color: white;
+           background-color: rgb(13, 17, 23);
         }
     </style>
 </head>
@@ -53,7 +52,9 @@
                                 <input type="submit" name="submit" class="btn btn-info btn-md" value="Entrar" asp-controller="Login" asp-action="Login" asp-route-email="email" asp-route-senha="senha">
                             </div>
                             <div id="register-link" class="text-right">
+                                <font color="white">
                                 <a class="nav-link" asp-controller="Cadastro" asp-action="Cadastro">Cadastre-se</a>
+                                </font>
                             </div>
                         </form>
                     </div>
